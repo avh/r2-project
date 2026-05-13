@@ -1,0 +1,11 @@
+{
+  "port": 8080,
+  "default_agent": "user/r2",
+  "default_model": "ollama:qwen3.5:9b",
+  "default_thinking": true,
+  "models": [
+    "omlx:Qwen3.6-35B-A3B-UD-MLX-4bit",
+    "omlx:Qwen3-4B-Instruct-4bit"
+  ],
+  "mlx_url": "http://localhost:8000/v1/chat/completions"
+}
